@@ -56,7 +56,6 @@ body {
 
 .randos img {
     border-radius: 50%;
-    box-shadow: gray 0 0 10px;
     width: 200px;
     position: relative;
     right: 20px;
