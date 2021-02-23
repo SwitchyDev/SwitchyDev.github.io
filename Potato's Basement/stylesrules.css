@@ -51,7 +51,5 @@ body {
     width: 400px;
     height: 35px;
     border-bottom: 3px solid lightcoral;
-    margin-left: 19cm;  
-    position: relative;
-    bottom: 20px;
+    margin: 20px auto;
 }
