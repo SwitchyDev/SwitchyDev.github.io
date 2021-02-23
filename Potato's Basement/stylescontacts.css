@@ -43,10 +43,29 @@ body {
     margin-right: 15px; 
 }
 
-.rules ul {
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts figure {
+    position: relative;
+    top: 50px;
+    margin-left: 5cm;
+}
+
+.contacts figure figcaption {
     color: white;
-    margin-left: 20cm;;
-} 
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.contacts figure img{
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
 
 .border {
     width: 400px;
