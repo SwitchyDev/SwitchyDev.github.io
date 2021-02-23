@@ -116,6 +116,7 @@ footer {
 
 .border2 {
     width: 300px;
+    height: auto;       
     border: 3px solid lightcoral;
     margin: 20px auto;
     position: relative;
