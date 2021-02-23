@@ -12,19 +12,18 @@ body {
 }
 
 .weblink h1 {
-    margin-right: .5cm;
-    color: white;   
+    margin-right: 0.1cm;
+    color: lightcoral;   
 }
 
-a {
+.weblink a {
     color: white;
     text-decoration: none;
 }
 
-a:hover {
-    color: cyan;
+.weblink a:hover {
+    color: lightcoral;
     text-decoration:underline;
-    color: lightblue
 }
 
 .weblink nav ul {
@@ -35,7 +34,7 @@ a:hover {
 
 .weblink nav ul li {
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 15px; 
 }
 
 .randos h2  {
@@ -68,4 +67,19 @@ a:hover {
 .info h5 {
     text-align: center;
     font-size: 1cm;
+}
+
+.info a {
+    color: lightcoral;
+}
+
+.info a:hover {
+    color: cyan;
+}
+
+.border {
+    width: 350px;
+    height: 35px;
+    border: 5px solid lightcoral;
+    margin: 18px auto;
 }

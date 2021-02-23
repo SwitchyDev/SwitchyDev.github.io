@@ -13,7 +13,7 @@ body {
 
 .weblink h1 {
     margin-right: .5cm;
-    color: white;
+    color: lightcoral;
 }
 
 a {
@@ -40,7 +40,5 @@ a:hover {
 
 .rules ul {
     color: white;
-    list-style-type: none;
-    text-align: center;
-    margin-right: 65px;
+    margin-left: 20cm;;
 } 
