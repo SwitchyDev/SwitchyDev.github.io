@@ -29,7 +29,6 @@ body {
 
 .weblink a:hover {
     color: lightcoral;
-    text-decoration:underline;
 }
 
 .weblink nav ul {
@@ -43,28 +42,35 @@ body {
     margin-right: 15px; 
 }
 
-.randos h2  {
-    color: white;
-    text-align: center; 
-    position: relative;
-    right: 20px;
-}
-
 .randos {
     text-align: center;
+}
+
+.randos h2  {
+    color: white;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.randos h3 {
+    color: white;
+    position: relative;
+    font-size: 1.3em;
+    right: 20px;
+    margin: auto;
 }
 
 .randos img {
     border-radius: 50%;
     width: 200px;
-    position: relative;
-    right: 20px;
+    position: relative; 
+    top: 20px;
 }
 
 .info h3 {
     color: white;
     font-size: 1cm;
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
     position: relative;
     right: 20px;
@@ -85,16 +91,35 @@ body {
 }
 
 .info a {
+    font-size: 1em;
     color: lightcoral;
+    transition: all 400ms;
 }
 
 .info a:hover {
     color: cyan;
+    font-size: 1.1em;
+    font-size-adjust: 200px;
+}
+
+footer {
+    color: white;
+    font-size: 0.5cm;
 }
 
 .border1 {
     width: 400px;
     height: 35px;
-    border: 5px solid lightcoral;
+    border-bottom: 3px solid lightcoral;
     margin-left: 19cm;  
+    position: relative;
+    bottom: 20px;
+}
+
+.border2 {
+    width: 300px;
+    border: 3px solid lightcoral;
+    margin: 20px auto;
+    position: relative;
+    right: 20px;      
 }

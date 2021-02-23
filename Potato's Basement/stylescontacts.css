@@ -43,32 +43,42 @@ body {
     margin-right: 15px; 
 }
 
-.contacts {
+.border2 ul {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
 }
 
-.contacts figure {
-    position: relative;
-    top: 50px;
-    margin-left: 5cm;
-}
-
-.contacts figure figcaption {
+.border2 li {
     color: white;
     position: relative;
-    top: 10px;
-    left: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 65px;
 }
 
-.contacts figure img{
+.border2 img{
     border-radius: 50%;
     width: 200px;
+    position: relative;
+    top: 40px;
+    margin-left: 50px;
 }
 
-.border {
+.border1 {
     width: 400px;
     height: 35px;
-    border: 5px solid lightcoral;
+    border-bottom: 3px solid lightcoral;
     margin-left: 19cm;  
+    position: relative;
+    bottom: 20px;
+}
+
+.border2 {
+    width: 40cm;
+    height: 8cm;
+    border: 5px solid lightcoral;
+    position: relative;
+    top: 50px;
+    margin: 20px auto;
 }
