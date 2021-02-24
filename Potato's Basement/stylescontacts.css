@@ -29,7 +29,7 @@ body {
 
 .weblink a:hover {
     color: lightcoral;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 .weblink nav ul {
