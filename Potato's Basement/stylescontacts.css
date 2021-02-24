@@ -46,6 +46,8 @@ body {
 .contacts h3 {
     color: white;
     text-align: center;
+    position: relative;
+    top: 20px;
 }
 
 .border2 ul {
@@ -72,12 +74,12 @@ body {
 
 .voysh {
     position: relative;
-    left: 130px;
+    left: 135px;
 }
 
 .srini {
     position: relative;
-    left: 210px;
+    left: 215px;
 }
 
 .border2 img{
