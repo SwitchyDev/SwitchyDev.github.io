@@ -15,7 +15,7 @@ body {
     font-size: 1.5cm;
     color: lightcoral;   
     position: relative;
-    right: 30px;
+    right: 0px;
 }
 
 .weblink a {
@@ -44,7 +44,9 @@ body {
 
 .rules ul {
     color: white;
-    margin-left: 19.5cm;;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
 } 
 
 .border {

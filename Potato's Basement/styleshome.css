@@ -15,8 +15,7 @@ body {
     font-size: 1.5cm;
     text-shadow: gray 0 0 1px;
     color: lightcoral;   
-    position: relative;
-    right: 20px;
+    text-align: center;
 }
 
 .weblink a {
@@ -48,16 +47,14 @@ body {
 
 .randos h2  {
     color: white;
-    position: relative;
+    text-align: center;
     font-size: 1.2em;
 }
 
 .randos h3 {
     color: white;
-    position: relative;
+    text-align: center;
     font-size: 1.3em;
-    right: 20px;
-    margin: auto;
 }
 
 .randos img {
@@ -72,22 +69,16 @@ body {
     font-size: 1cm;
     margin-top: 50px;
     text-align: center;
-    position: relative;
-    right: 20px;
 }
 
 .info h4 {
     color: white;
     text-align: center;
-    position: relative;
-    right: 20px;
 }
 
 .info h5 {
     text-align: center;
     font-size: 1cm;
-    position: relative;
-    right: 20px;
 }
 
 .info a {
@@ -119,6 +110,4 @@ footer {
     height: auto;       
     border: 3px solid lightcoral;
     margin: 20px auto;
-    position: relative;
-    right: 20px;      
 }

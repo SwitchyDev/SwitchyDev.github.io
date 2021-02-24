@@ -15,8 +15,7 @@ body {
     font-size: 1.5cm;
     text-shadow: gray 0 0 1px;
     color: lightcoral;   
-    position: relative;
-    right: 20px;
+    text-align: center;
 }
 
 .weblink a {
