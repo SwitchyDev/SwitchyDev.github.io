@@ -43,23 +43,23 @@ body {
     margin-right: 15px; 
 }
 
-.randos {
+.border2 {
     text-align: center;
 }
 
-.randos h2  {
+.border2 h2  {
     color: white;
     text-align: center;
     font-size: 1.2em;
 }
 
-.randos h3 {
+.creators {
     color: white;
     text-align: center;
     font-size: 1.3em;
 }
 
-.randos img {
+.border2 img {
     border-radius: 50%;
     width: 200px;
     position: relative; 
