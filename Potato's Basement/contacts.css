@@ -46,7 +46,7 @@ body {
     color: white;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
 
 .staffrow1 {
@@ -68,6 +68,32 @@ body {
 .staffrow1 figcaption {
     color: white;
     text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 1cm;
+    top: 80px;
+}
+
+.mobile {
+    display: none;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    color: white;
+    font-size: 0.5cm;
+    position: fixed;
+    top: 925px;
+    z-index: 99;
 }
 
 .border1 {
@@ -93,5 +119,13 @@ body {
 
     .border2 {
         width: 8cm;
+    }
+
+    .mobile {
+        display: inline-block;
+    }
+    
+    .desktop {
+        display: none;
     }
 } 

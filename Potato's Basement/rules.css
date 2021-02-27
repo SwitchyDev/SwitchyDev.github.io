@@ -49,6 +49,14 @@ body {
     width: 350px;
 } 
 
+footer {
+    color: white;
+    font-size: 0.5cm;
+    position: fixed;
+    top: 925px;
+    z-index: 99;
+}
+
 .border {
     width: 400px;
     height: 35px;

@@ -26,8 +26,6 @@ body {
     text-align: center;
 }
 
-.weblink a:
-
 .weblink a:hover {
     color: lightcoral;
 }
@@ -83,14 +81,19 @@ body {
     font-size: 1cm;
 }
 
+.info p {
+    color: white;
+    text-align: center;
+}
+
 .info a {
     font-size: 1em;
-    color: lightcoral;
+    color: white;
     transition: all 400ms;
 }
 
 .info a:hover {
-    color: cyan;
+    color: lightcoral;
     font-size: 1.1em;
     font-size-adjust: 200px;
 }
@@ -99,7 +102,7 @@ footer {
     color: white;
     font-size: 0.5cm;
     position: fixed;
-    top: 920px;
+    top: 925px;
     z-index: 99;
 }
 
@@ -115,4 +118,17 @@ footer {
     height: auto;       
     border: 3px solid lightcoral;
     margin: 20px auto;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
 }
